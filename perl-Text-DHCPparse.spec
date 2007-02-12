@@ -2,7 +2,7 @@
 %define	pdir	Text
 %define	pnam	DHCPparse
 Summary:	Text::DHCPparse - Perl extension for parsing dhcpd lease files
-Summary(pl):	Text::DHCPparse - rozszerzenie Perla do analizy plikÛw dzierøaw dhcpd
+Summary(pl.UTF-8):   Text::DHCPparse - rozszerzenie Perla do analizy plik√≥w dzier≈ºaw dhcpd
 Name:		perl-Text-DHCPparse
 Version:	0.07
 Release:	1
@@ -21,10 +21,10 @@ The basic premise of the Text::DHCPparse module is to parse the lease
 file from an ISC DHCPd server. This is useful for quick reporting on
 active leases or for tracking purposes.
 
-%description -l pl
-Podstawowym przeznaczeniem modu≥u Text::DHCPparse jest analiza pliku
-dzierøaw z serwera ISC DHCPd. Jest to przydatne do szybkiego
-informowania o aktywnych dzierøawach albo do ∂ledzenia.
+%description -l pl.UTF-8
+Podstawowym przeznaczeniem modu≈Çu Text::DHCPparse jest analiza pliku
+dzier≈ºaw z serwera ISC DHCPd. Jest to przydatne do szybkiego
+informowania o aktywnych dzier≈ºawach albo do ≈õledzenia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
