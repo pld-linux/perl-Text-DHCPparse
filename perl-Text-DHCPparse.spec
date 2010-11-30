@@ -5,7 +5,7 @@ Summary:	Text::DHCPparse - Perl extension for parsing dhcpd lease files
 Summary(pl.UTF-8):	Text::DHCPparse - rozszerzenie Perla do analizy plików dzierżaw dhcpd
 Name:		perl-Text-DHCPparse
 Version:	0.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
