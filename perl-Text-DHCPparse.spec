@@ -1,6 +1,6 @@
+%define		pdir	Text
+%define		pnam	DHCPparse
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	DHCPparse
 Summary:	Text::DHCPparse - Perl extension for parsing dhcpd lease files
 Summary(pl.UTF-8):	Text::DHCPparse - rozszerzenie Perla do analizy plików dzierżaw dhcpd
 Name:		perl-Text-DHCPparse
@@ -39,7 +39,6 @@ informowania o aktywnych dzierżawach albo do śledzenia.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
